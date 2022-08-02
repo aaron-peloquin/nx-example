@@ -5,6 +5,7 @@
     "allowJs": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true, // this is the different rule between nextjs-app and alt-ts library
     "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
