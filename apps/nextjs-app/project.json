@@ -9,7 +9,8 @@
       "defaultConfiguration": "production",
       "options": {
         "root": "apps/nextjs-app",
-        "outputPath": "dist/apps/nextjs-app"
+        "outputPath": "dist/apps/nextjs-app",
+        "buildLibsFromSource": false
       },
       "configurations": {
         "development": {
