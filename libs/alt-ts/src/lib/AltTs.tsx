@@ -1,14 +1,10 @@
-import styles from './AltTs.module.scss';
+export interface AltTsProps {
+  someProp: number
+}
 
-/* eslint-disable-next-line */
-export interface AltTsProps {}
-
-export function AltTs(props: AltTsProps) {
-  return (
-    <div className={styles['container']}>
-      <h1>Welcome to AltTs!</h1>
-    </div>
-  );
+export function AltTs(props) {
+  const displayValue = props.someProp * 2
+  return <div>AltTS Component: {displayValue}</div>;
 }
 
 export default AltTs;
